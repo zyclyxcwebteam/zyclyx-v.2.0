@@ -1,81 +1,81 @@
-.header-img{
-    background-image: url("../images/bg_header/hiring.png");     
-} 
- article li span .fa{
-	color: #222da5;
-    /* background: rgba(55, 125, 255, 0.1); */
-    border-color: transparent;
-    border-radius: 50%;
-    margin:0px 5px; 
-    font-size: 14px;
-    /* padding: 0.5rem !important;    */
-} 
-.job-desc-list li{
-    display: flex;
-    margin: 8px auto;
+.header-img {
+  background-image: url("../img/bg_header/hiring.png");
+}
+article li span .fa {
+  color: #222da5;
+  /* background: rgba(55, 125, 255, 0.1); */
+  border-color: transparent;
+  border-radius: 50%;
+  margin: 0px 5px;
+  font-size: 14px;
+  /* padding: 0.5rem !important;    */
+}
+.job-desc-list li {
+  display: flex;
+  margin: 8px auto;
 }
 
-.job-desc-list li span{
-    margin-right: 8px;
+.job-desc-list li span {
+  margin-right: 8px;
 }
-     /* Chrome, Safari, Edge, Opera */
-     input::-webkit-outer-spin-button,
-     input::-webkit-inner-spin-button {
-       -webkit-appearance: none;
-       margin: 0;
-     }
-     
-     /* Firefox */
-     input[type=number] {
-       -moz-appearance:textfield;
-       background-color: #fff;
-     }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
-.form-group input{
-    border: none;     
-    font-size: 14px;
-    border-radius: 0px;          
-    padding: 1.4rem !important;
-    border-bottom: 1px solid #00b7fa;            
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  background-color: #fff;
 }
-.form-group{
-    text-align: left !important;
-    margin:1rem;
+
+.form-group input {
+  border: none;
+  font-size: 14px;
+  border-radius: 0px;
+  padding: 1.4rem !important;
+  border-bottom: 1px solid #00b7fa;
 }
-.form-group textarea{
-    border: 1px solid #00b7fa;
+.form-group {
+  text-align: left !important;
+  margin: 1rem;
 }
-.custom-file input{
-border: 1px solid #00b7fa !important;
-padding: 1.4rem !important;
+.form-group textarea {
+  border: 1px solid #00b7fa;
 }
-.form-group input:focus{
-    border: none;     
-    border-bottom: 2px solid #00b7fa;          
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.custom-file input {
+  border: 1px solid #00b7fa !important;
+  padding: 1.4rem !important;
 }
-.getintouch-form{
-    background: #fff;
-    box-shadow: 0px 0px 8px -5px;
+.form-group input:focus {
+  border: none;
+  border-bottom: 2px solid #00b7fa;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
-#btnSpinner{
-    display: none;
+.getintouch-form {
+  background: #fff;
+  box-shadow: 0px 0px 8px -5px;
+}
+#btnSpinner {
+  display: none;
 }
 .capitalize {
-     text-transform: capitalize;
-     }
-     .error {
-        color: red;
-        font-size: 10px;
-      }
+  text-transform: capitalize;
+}
+.error {
+  color: red;
+  font-size: 10px;
+}
 
-@media (max-width: 575.98px) { 
-    .address-card{
-        display: none;
-    }
-    .job-desc-list{
-        margin: 0 !important;
-        padding: 0 !important;
-    }
+@media (max-width: 575.98px) {
+  .address-card {
+    display: none;
+  }
+  .job-desc-list {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 }

@@ -35,8 +35,9 @@
     <!-- build:css css/conactus.min.css -->
     <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/contact.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/intlTelInput.min.css" />
     <!-- endbuild -->
   </head>
 
@@ -679,7 +680,10 @@
             <p class="f-title text-left">Follow us</p>
             <ul class="social-network d-flex justify-content-start mt-3 pl-0">
               <li>
-                <a href="#" class="icoFacebook" title="Facebook"
+                <a
+                  href="https://www.facebook.com/Zyclyx.IT"
+                  class="icoFacebook"
+                  title="Facebook"
                   ><svg
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -695,7 +699,7 @@
               </li>
               <li>
                 <a
-                  href="https://twitter.com/zyclyx"
+                  href="https://twitter.com/Zyclyx_IT"
                   class="icoTwitter"
                   title="Twitter"
                   ><svg
@@ -712,7 +716,11 @@
                 ></a>
               </li>
               <li>
-                <a href="#" class="icoTwitter" title="Instagram">
+                <a
+                  href="https://www.instagram.com/zyclyx_it"
+                  class="icoTwitter"
+                  title="Instagram"
+                >
                   <svg
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -729,7 +737,7 @@
               </li>
               <li>
                 <a
-                  href="https://in.linkedin.com/company/zyclyx-consulting-pvt-ltd"
+                  href="https://www.linkedin.com/company/zyclyx-consulting-pvt-ltd"
                   class="icoLinkedin"
                   title="Linkedin"
                   ><svg
@@ -875,9 +883,27 @@
 
     <!-- build:js js/contactus.min.js -->
     <script src="./js/vendor/aos.js"></script>
+    <script src="./js/intlTelInput.min.js"></script>
     <script src="./js/chatBot.js"></script>
     <script src="js/GetInTouchForm.js"></script>
     <script src="./js/plugins.js"></script>
     <!-- endbuild -->
+
+    <script>
+      var input = document.querySelector("#phone-no");
+      var iti = window.intlTelInput(input, {
+        initialCountry: "auto",
+        separateDialCode: true,
+        geoIpLookup: function (callback) {
+          $.get("https://ipinfo.io/json", function () {}, "jsonp").always(
+            function (resp) {
+              let countryCode = resp && resp.country ? resp.country : "";
+              callback(countryCode);
+            }
+          );
+        },
+        utilsScript: "./js/utils.js",
+      });
+    </script>
   </body>
 </html>

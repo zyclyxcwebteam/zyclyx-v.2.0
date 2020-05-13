@@ -1,62 +1,62 @@
-.header-img {     
-    background-image: url("../images/bg_header/why_zyclyx.jpg");     
+.header-img {
+  background-image: url("../img/bg_header/why_zyclyx.jpg");
 }
-.why-choose-cards .card{
-border: none !important;
+.why-choose-cards .card {
+  border: none !important;
 }
-.why-choose-cards .card-1{
-    margin-bottom: 1rem;
+.why-choose-cards .card-1 {
+  margin-bottom: 1rem;
 }
-.why-choose-cards .card-2{
-    margin-top: 1rem;
+.why-choose-cards .card-2 {
+  margin-top: 1rem;
 }
-.why-choose-cards .card-body{
-    background-color: hsl(206, 41%, 99%);
-    border: 1px solid #21c87a80;
-    border-radius: 0.6rem;
+.why-choose-cards .card-body {
+  background-color: hsl(206, 41%, 99%);
+  border: 1px solid #21c87a80;
+  border-radius: 0.6rem;
 }
-.why-choose-cards .card-3,.why-choose-cards .card-4{
-    margin-top: 2rem;
-    margin-left: 0.5rem;
+.why-choose-cards .card-3,
+.why-choose-cards .card-4 {
+  margin-top: 2rem;
+  margin-left: 0.5rem;
 }
 /* we are great at section */
 .great-at-section {
-    background-color: hsl(206, 41%, 98%);
-  }
-  .great-at-cards .card {
-    border: none;
-    padding: 0 !important;
-    margin: 0 !important;
-    background-color: transparent;
-  }
-  .great-at-cards .card-body {
-    margin: 0.8rem;
-    border-radius: 0.6rem;
-    border: 1px solid rgba(0, 123, 255, 0.3);
-  }
-  .heading-blue{
-    color: #222da5;
-  }
+  background-color: hsl(206, 41%, 98%);
+}
+.great-at-cards .card {
+  border: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: transparent;
+}
+.great-at-cards .card-body {
+  margin: 0.8rem;
+  border-radius: 0.6rem;
+  border: 1px solid rgba(0, 123, 255, 0.3);
+}
+.heading-blue {
+  color: #222da5;
+}
 
 /* 
   ==== CORE VALUES ====
   */
- 
-   
-  .core-values-items img {
-    width: 40px;
-    height: auto;
-  }
-  
-  /* 
+
+.core-values-items img {
+  width: 40px;
+  height: auto;
+}
+
+/* 
     ==== END - CORE VALUES ====
   */
 
-  @media (max-width: 575.98px) { 
-    .why-choose-title{
-      font-size: 1.7rem !important;
-    }
-    .why-choose-cards .card{
-      margin: 0.5rem !important;
-    }     
+@media (max-width: 575.98px) {
+  .why-choose-title {
+    font-size: 1.7rem !important;
   }
+  .why-choose-cards .card {
+    margin: 0.5rem !important;
+  }
+}

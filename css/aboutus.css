@@ -1,35 +1,38 @@
-.header-img {   
-  background-image: url("../images/bg_header/about_us.jpg");
-} 
+.header-img {
+  background-image: url("../img/bg_header/about_us.jpg");
+}
 .about-vision {
   background-color: #f3f7fa;
   line-height: 1.7;
 }
 .mission-icon,
 .vission-icon {
-  box-shadow:inset 0 0 0 1px hsl(16, 100%, 70%);
+  box-shadow: inset 0 0 0 1px hsl(16, 100%, 70%);
   background: #fff;
 }
-.mission-icon svg,.vission-icon svg{
+.mission-icon svg,
+.vission-icon svg {
   fill: #ff4500;
-  transition: all .5s ease-in-out;
--webkit-transition: all .5s ease-in-out;
--moz-transition: all .5s ease-in-out;
--ms-transition: all .5s ease-in-out;
--o-transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
- .mission:hover .mission-icon,.vission:hover .vission-icon{   
+.mission:hover .mission-icon,
+.vission:hover .vission-icon {
   box-shadow: inset 0 0 0 70px #ff4500;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
- 
-.mission:hover .mission-icon svg, .vission:hover .vission-icon svg{
-    fill: #ffffff; 
-    transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+
+.mission:hover .mission-icon svg,
+.vission:hover .vission-icon svg {
+  fill: #ffffff;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
 
 .how-we-do .card {
@@ -42,7 +45,7 @@
   margin-top: 1.2rem !important;
 }
 .we-do-card .icon {
-  height: 100px;     
+  height: 100px;
   margin: 0 auto;
   text-align: center;
   border-top-left-radius: 8px;
@@ -76,13 +79,13 @@
   content: "06" !important;
 }
 .we-do-card .content {
-  text-align: center;   
+  text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-   }
+}
 .we-do-card .title-2 {
   font-size: 18px !important;
   margin: 0 !important;
@@ -103,8 +106,7 @@
   border-radius: 0.6rem;
   border: 1px solid rgba(0, 123, 255, 0.3);
 }
- 
- 
+
 #footer {
   margin-top: 0 !important;
 }
@@ -123,8 +125,5 @@
   .mission-text,
   .vision-text {
     display: block;
-  }  
+  }
 }
- 
- 
-
